@@ -574,3 +574,15 @@ header {
     padding-top: 90px;
   }
 }
+/* Fix overlapping issue before Contact Us section */
+#contact {
+    margin-top: 160px !important;
+    padding-top: 40px !important;
+    position: relative;
+    z-index: 10;
+}
+
+/* Ensure testimonials end with enough space */
+#testimonials {
+    margin-bottom: 160px !important;
+}
